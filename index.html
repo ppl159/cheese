@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>유어네이키드치즈</title>
+    <!--파비콘-->
+    <link href="img/pavicon.png" type="image/icon" rel="shorcut icon">
+    <!--외부 css-->
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" type="text/css" rel="stylesheet">
+    
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $('.slider').bxSlider({
+        auto:true
+    });
+        
+    $('.bx-wrapper .bx-controls-direction a').click(function(){
+        $(this).addClass('active');
+    });
+        
+    $('.bx-wrapper .bx-controls-direction a').mouseleave(function(){
+        $(this).removeClass('active');
+    });    
+        
+    });
+    </script>
+    
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="header_wrap">
+            <div class="top_area">
+            <p>cs/center 070-3233-7309</p>
+            </div>
+            <div class="logo">
+            <!--로고 클릭하면 항상 맨 처음 페이지로 이동해야 함-->
+               <a href="index.html">
+                   <img src="img/logo.png" alt="로고">
+               </a>
+            </div>
+            <!--내비게이션-->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">치즈</a>
+                        <ul class="sub">
+                            <li>
+                                <a href="#">후레쉬치즈</a>
+                            </li>
+                            <li>
+                                <a href="#">가공치즈</a>
+                            </li>
+                            <li>
+                                <a href="#">소프트치즈</a>
+                            </li>
+                            <li>
+                                <a href="#">하드치즈</a>
+                            </li>
+                            <li>
+                                <a href="#">블루치즈</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">난이도별</a>
+                        <ul class="sub">
+                            <li>
+                                <a href="#">레벨1</a>
+                            </li>
+                            <li>
+                                <a href="#">레벨2</a>
+                            </li>
+                            <li>
+                                <a href="#">레벨3</a>
+                            </li>
+                            <li>
+                                <a href="#">샐러드</a>
+                            </li>
+                            <li>
+                                <a href="#">파스타&피자</a>
+                            </li>
+                            <li>
+                                <a href="#">와인안주</a>
+                            </li>
+                            <li>
+                                <a href="#">스프레드</a>
+                            </li>
+                            <li>
+                                <a href="#">샌드위치</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">식료품</a>
+                        <ul class="sub">
+                            <li>
+                                <a href="#">버터/크림</a>
+                            </li>
+                            <li>
+                                <a href="#">햄/올리브/절임</a>
+                            </li>
+                            <li>
+                                <a href="#">스낵/꿀/잼</a>
+                            </li>
+                            <li>
+                                <a href="#">파스타면/피자</a>
+                            </li>
+                            <li>
+                                <a href="#">토마토/소스</a>
+                            </li>
+                            <li>
+                                <a href="#">오일/향신료</a>
+                            </li>
+                            <li>
+                                <a href="#">트러플</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">TOOL</a>
+                    </li>
+                    <li>
+                        <a href="#">GIFT</a>
+                    </li>
+                    <li>
+                        <a href="#">STORE</a>
+                        <ul class="sub">
+                            <li>
+                                <a href="#">DELIVERY</a>
+                            </li>
+                            <li>
+                                <a href="#">SHOWROOM</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">ABOUT</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="right_area">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/search.png" alt="검색">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/join.png" alt="로그인">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/cart.png" alt="장바구니">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div><!--header_wrap-->
+        </header>
+        <section class="slide slider">
+            <div>
+                <a href="#">
+                    <img src="img/slide1.png" alt="라클렛치즈">
+                </a>
+            </div> 
+            <div>    
+                <a href="#">
+                    <img src="img/slide2.png" alt="딜리버리서비스">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="img/slide3.png" alt="선물패키지">
+                </a>
+            </div>
+            
+        </section>
+        <section class="delivery">
+            <h1>CHEESE PLATE DELIVERY</h1>
+            <p>배달 서비스로 집에서 편하게 받아보세요.</p>
+            <ul>
+                <li><a href="#">
+                   <div class="photo">
+                    <img src="img/scoop.png" alt="베이컨샬롯 크림치즈">
+                    </div>
+                    <p>베이컨샬롯 크림치즈</p>
+                </a></li>
+                <li><a href="#">
+                   <div class="photo">
+                    <img src="img/giftbox.png" alt="베이컨샬롯 크림치즈">
+                    </div>
+                    <p>데일리 치즈 기프트 박스</p>
+                </a></li>
+                <li><a href="#">
+                   <div class="photo">
+                    <img src="img/burrata.png" alt="베이컨샬롯 크림치즈">
+                    </div>
+                    <p>부라타 치즈</p>
+                </a></li>
+            </ul>
+        </section>
+        <section class="product">
+            <h1>BEST</h1>
+            <p>유어네이키드치즈의 인기상품 TOP8</p>
+            <ul>
+                <li>
+                    <div class="product_li">
+                        <div class="back">
+                            <img src="img/tomatocan.png" alt="디벨라 홀토마토 200g">
+                        </div>
+                        <div class="front"></div>
+                    </div>
+                    <p>디벨라 홀토마토 200g <br>5,500원</p>
+                </li>
+                <li>
+                    <div class="product_li">
+                        <div class="back">
+                            <img src="img/burratapak.png" alt="벨라지오 부라타치즈 250g">
+                        </div>
+                        <div class="front"></div>
+                    </div>
+                    <p>벨라지오 부라타치즈 259g <br>12,900원</p>
+                </li>
+                <li>
+                    <div class="product_li">
+                        <div class="back">
+                            <img src="img/butter.png" alt="이즈니 생 메르 무염버터 259g">
+                        </div>
+                        <div class="front"></div>
+                    </div>
+                    <p>이즈니 생 메르 무염버터 259g<br>8,800원</p>
+                </li>
+                <li>
+                    <div class="product_li">
+                        <div class="back">
+                            <img src="img/chorizo.png" alt="에스푸나 초리조 100g">
+                        </div>
+                        <div class="front"></div>
+                    </div>
+                    <p>에스푸나 초리조 100g<br>8,900원</p>
+                </li>
+                <li>
+                    <div class="product_li">
+                        <div class="back">
+                            <img src="img/smokecheese.png" alt="프리코 스모크치즈 150g">
+                        </div>
+                        <div class="front"></div>
+                    </div>
+                    <p>프리코 스모크치즈 150g<br>10,900원</p>
+                </li>
+                <li>
+                    <div class="product_li">
+                        <div class="back">
+                            <img src="img/madam.png" alt="마담로익 크림치즈 200g">
+                        </div>
+                        <div class="front"></div>
+                    </div>
+                    <p>마담로익 크림치즈 200g<br>9,500원</p>
+                </li>
+                <li>
+                    <div class="product_li">
+                        <div class="back">
+                            <img src="img/olives.png" alt="마다마 올리바 올리브절임 500g">
+                        </div>
+                        <div class="front"></div>
+                    </div>
+                    <p>마다마 올리바 올리브절임 500g<br>8,600원</p>
+                </li>
+                <li>
+                    <div class="product_li">
+                        <div class="back">
+                            <img src="img/mozzarella.png" alt="산타레지나 모짜렐라치즈 125g">
+                        </div>
+                        <div class="front"></div>
+                    </div>
+                    <p>산타레지나 모짜렐라치즈 125g<br>4,500원</p>
+                </li>
+            </ul>
+        </section>
+        <section class="movie">
+            <h1>NEW</h1>
+            <p>슬라이스 라클렛치즈로 어디서든 간편하게!</p>
+            <div class="movie_in">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/wQ5BIZru6Ss?autoplay=1&amp;mute=1&amp;loop=1&amp;start=1&amp;playlist=wQ5BIZru6Ss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="store">
+           <!--배경 이미지 고정-->
+           <div class="fixed_bg"></div>
+           <h1>STORE</h1>
+            <div class="store_in">
+                <div class="left_s">
+                </div>
+                <div class="right_s">
+                    <div>
+                        <h2>강남점</h2>
+                        <p>서울 강남지역 딜리버리 서비스<br>OPEN 12:00 ~ 23:00</p>
+                    </div>
+                    <div>
+                        <h2>성수점</h2>
+                        <p>서울 성통, 광진지역 딜리버리서비스<br>OPEN 12:00 ~ 23:00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="instagram">
+            <h1>INSTAGRAM</h1>
+            <div class="instagram_in">
+                <ul>
+                    <li><a href="#">
+                        <img src="img/insta1.png" alt="인스타">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/insta2.png" alt="인스타">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/insta3.png" alt="인스타">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/insta4.png" alt="인스타">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/insta5.png" alt="인스타">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/insta6.png" alt="인스타">
+                    </a></li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+             <div class="footer_in">
+                 <div class="info">
+                     <p class="title">COMPANY</p>
+                     <p>상호: 유어네이키드치즈       대표: 이효원</p>
+                     <p>사업자등록번호: 344-57-00896</p>
+                     <p>통신판매: 제 2019-서울성동-243 호</p>
+                     <p>주소: 서울특별시 성동구 왕십리로1길 7 1004호</p>
+                     <p>전화: 070-8899-7878</p>
+                     <p>개인정보관리책임자: 이효원</p>
+                 </div>
+                 <div class="cs">
+                     <p class="title2">CS</p>
+                     <p class="hp">070-8899-7878</p>
+                     <p>AM: 10:00 - PM: 5:00</p>
+                     <p>토,일요일 및 공휴일 휴무입니다.</p>
+                     <p>이메일: ppl159@naver.com</p>
+                 </div>
+             </div>
+             <div class="site_map">
+                 <ul>
+                     <li><a href="#"></a>이용약관</li>
+                     <li><a href="#"></a>개인정보취급방침</li>
+                     <li><a href="#"></a>이용안내</li>
+                 </ul>
+             </div>
+        </footer>
+    </div>
+    
+</body>
+</html>
