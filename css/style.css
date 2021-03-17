@@ -233,7 +233,7 @@ section.store .fixed_bg{
     position:absolute;
     width:100%;
     height:400px;
-    background-image:url(../img/cheeseslidebg.jpg);
+    background-image:url(https://ppl159.github.io/cheese/img/cheeseslidebg.jpg);
     background-attachment:fixed;
     z-index:1;  /*뒤쪽으로 순서 변경*/
 }
@@ -260,7 +260,7 @@ section.store .store_in div{
     box-sizing:border-box;
 }
 section.store .store_in .left_s{
-    background-image:url(../img/cheesepattern.png);
+    background-image:url(https://ppl159.github.io/cheese/img/cheesepattern.png);
      
 }
 
